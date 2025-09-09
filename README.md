@@ -41,6 +41,7 @@ Specific instructions for running experiments can be found in the README for eac
 Due to GitHub limits on file size, SCAR model weights are saved in the "Releases" section at https://github.com/basiralab/MSRGNN. This is important as if you wish to use pre-trained weights you must manually place these in the correct directory.
 
 For I-RAVEN, ```best_model_scar.pth``` and ```best_model_drnet.pth``` must be placed in ```I_RAVEN/saved_models```
+
 For RADIO:
 - ```RADIO1_SCAR```
 - ```RADIO1_SCAR_TRANSFER_RAVEN```
