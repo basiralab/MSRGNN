@@ -37,16 +37,11 @@ For RADIO:
 
 must be placed in ```RADIO/saved_models```
 
-
 For O3:
 - ```O3_5-SCAR```
 - ```O3_5-SCAR-TRANSFER```
 - ```O3_5-SCAR-TRANSFER_RADIO```
 - ```O3_5-SCAR-TRANSFER_RADIO_2``` 
-- ```O3_5-DRNet```
-- ```O3_5-DRNet-TRANSFER```
-- ```O3_5-DRNet-TRANSFER_RADIO```
-- ```O3_5-DRNet-TRANSFER_RADIO_2``` 
 
 must be placed in ```O3/saved_models```
 
