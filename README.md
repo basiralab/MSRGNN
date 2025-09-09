@@ -3,6 +3,8 @@
 ## Overview
 MSRGNN is a unified model for solving various Abstract Visual Reasoning (AVR) tasks, consisting of a multi-scale panel-level feature extractor and a relational GNN reasoning module.
 
+## Architecture
+<img width="2364" height="2268" alt="main_figure" src="https://github.com/user-attachments/assets/2b6a952c-cac9-464f-8b00-94ac028026f5" />
 
 ## Project Structure
 Each task is organised in its own self-contained folder
