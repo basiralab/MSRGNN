@@ -12,6 +12,7 @@ MSRGNN/
 ├── RADIO # Contains MSRGNN and baselines for RADIO experiments
 ├── O3 # Contains MSRGNN and baselines for O3 experiments
 ├── viz # Contains visualisation code e.g. dataset distributions
+├── datasets # Contains zip files of datasets
 └── README.md   
 ```
 
@@ -20,6 +21,21 @@ MSRGNN/
 ```bash
 pip install -r requirements.txt
 ```
+## Datasets
+### I-RAVEN
+I-RAVEN[1] can be found and generated from: https://github.com/cwhy/i-raven, but we provide our generated dataset in the "Releases" section at https://github.com/basiralab/MSRGNN. We do not include it directly in the repo due to size constraints.
+
+### RADIO
+RADIO, which is derived from OrganSMNIST [4,5] of MedMNIST [2,3], can be generated using the ```RADIO/gen_radio.py``` script provided and we provide our generated dataset at ```RADIO/generated_radio_datasets_split``` and in zip format at ```datasets/radio.zip```.
+
+### O3 
+O3[6] can be found at https://github.com/deepiq/deepiq, specifically the ```odd-one-out test examples.zip```. We also provide the dataset at   ```O3/odd-one-out``` and in zip format at ```datasets/odd-one-out test examples.zip```.
+
+## Baseline Models
+The state-of-the-art models which we evaluate against in our experiments include WReN [7], MXGNet [8], MRNet [9], DRNet [10] and SCAR [11] 
+
+## Running experiments
+Specific instructions for running experiments can be found in the README for each task's folder individually
 
 ## IMPORTANT - Pretrained SCAR and DRNet Model Weights
 Due to GitHub limits on file size, SCAR model weights are saved in the "Releases" section at https://github.com/basiralab/MSRGNN. This is important as if you wish to use pre-trained weights you must manually place these in the correct directory.
@@ -44,24 +60,6 @@ For O3:
 - ```O3_5-SCAR-TRANSFER_RADIO_2``` 
 
 must be placed in ```O3/saved_models```
-
-## Datasets
-### I-RAVEN
-I-RAVEN[1] can be found and generated from: https://github.com/cwhy/i-raven, but we provide our generated dataset in the "Releases" section at https://github.com/basiralab/MSRGNN. We do not include it directly in the repo due to size constraints.
-
-### RADIO
-RADIO, which is derived from OrganSMNIST [4,5] of MedMNIST [2,3], can be generated using the ```RADIO/gen_radio.py``` script provided and we provide our generated dataset at ```RADIO/generated_radio_datasets_split``` and in zip format at ```datasets/radio.zip```.
-
-### O3 
-O3[6] can be found at https://github.com/deepiq/deepiq, specifically the ```odd-one-out test examples.zip```. We also provide the dataset at   ```O3/odd-one-out``` and in zip format at ```datasets/odd-one-out test examples.zip```.
-
-## Baseline Models
-The state-of-the-art models which we evaluate against in our experiments include WReN [7], MXGNet [8], MRNet [9], DRNet [10] and SCAR [11] 
-
-
-## Running experiments
-Specific instructions for running experiments can be found in the README for each task's folder individually
-
 
 ## Citations
 
